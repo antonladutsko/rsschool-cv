@@ -1,4 +1,4 @@
-/* 
+/*
 Clear Style
 */
 
@@ -96,7 +96,7 @@ h1, h2, h3 {
 }
 
 .column__inner_left {
-width: 37%;
+  width: 37%;
 }
 
 .column__inner_right {
@@ -186,4 +186,22 @@ pre {
 
 .main__list_style li:before {
   content: "</> ";
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  font-size: 0.8em;
+  border-top: 20px solid #949494;
+}
+
+.RS_logo {
+  width: 80px;
+
+}
+
+.gh_logo {
+  width: 30px;
 }

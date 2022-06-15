@@ -81,3 +81,89 @@
                 </div>
             </div>
         </header>
+        <main>
+            <div id="aboutMe" class="main__content">
+                <div class="column__inner_left aboutMe">
+                    <h2>About me</h2>
+                </div>
+                <div class="column__inner_right">
+                    <p>I have been doing business for more than eight years, I ordered the first website from a third-party organization. 
+                        The second site was made with the help of constructors, the final site - I wrote it myself. 
+                        From that moment, the love for layout and frontend in general was born. 
+                        Next stage - JS.</p>
+                </div>
+            </div>
+            <div id="skils" class="main__content">
+                <div class="column__inner_left">
+                    <h2>Skills and Proficiency</h2>
+                </div>
+                <div class="column__inner_right">
+                    <ul class="main__list_style">
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript Basics</li>
+                        <li>Git, GitHub</li>
+                        <li> VS Code</li>
+                        <li>Adobe Photoshop, CorelDRAW</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="codeEx" class="main__content">
+                <div class="column__inner_left">
+                    <h2>Code example</h2>
+                </div>
+                <div class="column__inner_right">
+                    <pre>
+                        <br>
+                        let users = [
+                            {
+                                id: '13',
+                                name: 'John',
+                                age: 17
+                            },
+                            {
+                                id: '19',
+                                name: 'Mike',
+                                age: 18
+                            },
+                            {
+                                id: '32',
+                                name: 'Stan',
+                                age: 30
+                            }
+                        ];
+                        function sortAdultUsers(usersArray) {
+                            let result = usersArray.filter(function(user) {
+                                return user.age &gt;= 18;
+                            });
+                            return result;
+                        }
+                        console.log(sortAdultUsers(users));
+                    </pre>
+                </div>
+            </div>
+            <div id="education" class="main__content">
+                <div class="column__inner_left">
+                    <h2>Education</h2>
+                </div>
+                <div class="column__inner_right">
+                    <ul class="main__list_style">
+                        <li><a target="_blank" href="https://www.belstu.by/">Belarusian State Technological University</a></li>
+                        <li><a target="_blank" href="https://learn.javascript.ru/">learn.javascript.ru - in progress</a></li>
+                        <li><a target="_blank" href="https://www.w3schools.com/">w3schools - completed</a></li>
+                        <li><a target="_blank" href="https://rs.school/js-stage0/">«JS/FE Pre-School» in RS School - in progres</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="languages" class="main__content">
+                <div class="column__inner_left">
+                    <h2>Languages</h2>
+                </div>
+                <div class="column__inner_right">
+                    <ul class="main__list_style">
+                        <li>English : A2</li>
+                        <li>Belarusian : Native</li>
+                        <li>Ukrainian : pre-Intermediate</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
